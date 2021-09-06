@@ -13,9 +13,9 @@ const deleteContactSuccess = createAction('contacts/deleteContactsSuccess');
 const deleteContactError = createAction('contacts/deleteContactsError');
 
 
-const filterContacts = createAction('contacts/filter')
+const filterContacts = createAction('phonebook/filter')
 
-export const ContactsActions = {
+export const PhonebookActions = {
     fetchContactRequest, fetchContactSuccess, fetchContactError,
     addContactRequest, addContactSuccess, addContactError,
     deleteContactRequest, deleteContactSuccess, deleteContactError,

@@ -1,0 +1,30 @@
+.button {
+  text-transform: uppercase;
+  font-weight: 600;
+  outline: 0;
+  background: #2758e7c9;
+  width: fit-content;
+  border: 0;
+  border-radius: 10px;
+  margin-left: 15px;
+  padding: 15px;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+  height: fit-content;
+}
+
+.button:hover {
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2),
+    0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.userMenu {
+  display: flex;
+  align-items: center;
+}
+
+.userName{
+  color:#052e5ec9;
+  font-size: larger;
+}
